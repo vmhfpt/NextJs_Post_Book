@@ -1,0 +1,80 @@
+.app-contact__title {
+    display : flex;
+    width : 100%;
+    flex-direction: column;
+    align-items: center;
+    gap : 5px;
+}
+.app-contact__title span {
+    text-transform: uppercase;
+    color : #186adc;
+    font-size: 16px;
+}
+.app-contact__title h1 {
+    font-size: 43px;
+    line-height: 60px;
+    word-spacing: 10px;
+}
+.app-contact__icon-item {
+    justify-content: center;
+    height : 250px;
+    border : 1px solid #d9d7d7;
+    border-radius: 8px;
+    display : flex;
+    gap : 45px;
+    flex-direction: column;
+    align-items: center;
+}
+.app-contact__icon-item-bottom {
+    display : flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.app-contact__icon-item div:first-child i {
+    font-size: 65px;
+    color : #186adc;
+}
+.app-contact__form-item input {
+    width : 100%;
+    border : 1px solid #d9d7d7;
+    border-radius: 6px;
+    padding : 17px 15px;
+    font-size: 16px;
+}
+.app-contact__form-item label{
+   color : #63636b !important; 
+}
+.app-contact__form-item button {
+    font-size: 16px !important;
+    padding : 16px 70px !important;
+    border-radius: 5px !important;
+}
+.app-contact__form-item {
+    margin :11px 0px;;
+}
+.app-contact__form-top-title h1 {
+    font-size: 31px;
+}
+.app-contact__form-top-title {
+    margin : 20px 0px;
+}
+.app-contact__form-item-textra input {
+    padding : 17px 15px 150px 15px !important;
+}
+.app-contact__form-map iframe {
+    width : 100%;
+    object-fit: cover;
+    overflow: hidden;
+   display : block;
+   padding-top : 10px;
+}
+.app-contact__form-map {
+    position: relative;
+    
+}
+.app-contact__title {
+    margin : 30px 0px;
+}
+.app-contact__form {
+    margin : 16px 0px 56px 0px;
+}

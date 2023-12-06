@@ -1,0 +1,749 @@
+
+@media only screen and (max-width: 600px) {
+    .app-first-section {
+       padding-top: 200px;
+    }
+
+   
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(1.5rem * .5);
+        padding-left: calc(1.5rem * .5);
+        margin-top: 0;
+    }
+   
+   
+
+    .absolute-icon {
+        position: relative;
+    }
+   .app-nav__content-item-icon-nav {
+    position: absolute;
+    cursor: pointer;
+    left : 0px;
+    top : 0px;
+    height : 100%;
+    font-size: 25px !important;
+   color : rgb(47, 47, 47);
+    display: flex;
+    align-items: center;
+   }
+.app-first-section__content {
+    width : 100%;
+}
+.app-fourth-section-left {
+    padding : 0px;
+}
+     .app-fifth-section__nav {
+        overflow:scroll;
+     }
+     .app-fifth-section__nav li {
+        text-align: center;
+     }
+    .app-header {
+        display : none !important;
+    }
+    .app-footer-last__right {
+        justify-content: flex-start;
+    }
+    .app-sixth-section__content {
+        flex-wrap: wrap;
+      
+        justify-content: center;
+       }
+       
+       .app-sixth-section__content-item {
+        width :  75%;
+       }
+    .row>* {
+        max-width: 100%;
+        padding-right: calc(1.5rem * .5);
+        padding-left: calc(1.5rem * .5);
+        margin-top: 0;
+    }
+    .container {
+        width : 100%;
+    }
+    .app-fifth-section__content {
+        grid-template-columns: 75%;
+        justify-content: center;
+      
+    }
+   
+     .app-fifth-section__content-item img {
+        max-height: 320px;
+        object-fit: cover;
+        min-height: 320px;
+    }
+    .app-fifth-section__content-item {
+        overflow: hidden;
+    }
+    .app-second-section__content {
+        flex-wrap: wrap;
+    }
+ 
+    .app-fourth-section-left {
+        justify-content: center;
+        margin-bottom: 20px;
+       
+        
+    }
+    .app-fourth-section-right {
+        gap : 30px;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .app-fourth-section-right-item {
+        text-align: center;
+    }
+   
+    .app-footer-item__right {
+        margin : 12px 0px;
+    }
+    .app-footer__item {
+        margin : 12px 0px;
+    }
+    .app-last-section-item {
+        margin : 12px 0px;
+    }
+    .app-seventh-section-content {
+        margin : 12px 0px;
+    }
+    
+  
+
+
+     /**************nav nav nav nav nav***********************/
+ .app-nav__content-item-child li {
+    padding : 20px 20px !important;
+    width : 100% !important;
+    position: relative;
+    border-bottom: 1px solid #cecdcd !important;
+ }
+
+
+
+
+
+     .app-nav__content-item-child {
+        padding : 0px 0px !important;
+        z-index: 998;
+        width : 100%;
+        top : 100% !important;
+        border-radius: 0 !important;
+     }
+     .app-nav__content-item-title-li-active {
+        color : white !important;
+        background: #186adc !important;
+     }
+     .app-nav__content-item-title-active {
+        color : white;
+     }
+     .app-nav__content {
+        position: relative;
+     }
+     .app-nav__content-item-hot {
+        display: none;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2){
+        
+        align-items: flex-start;
+        position: fixed;
+        top : 92px;
+        z-index: 999;
+        padding : 0px;
+        left : 0px;
+        background: #f0f4f8;
+        height : 100vh;
+        justify-content: flex-start;
+        width : 70% !important;
+         display: none;
+       
+     }
+    
+     .app-nav {
+        position: fixed;
+        z-index: 999;
+        background: white;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul{
+        display: flex;
+        flex-direction: column !important;
+        gap : 0px !important;
+        width : 100%;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul li{
+       padding : 14px 0px 14px 20px;
+       width : 100% !important;
+       position: relative;
+       border-bottom: 1px solid #ffffff;
+     }
+
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul li .fa-angle-down{
+        
+        position: absolute;
+        top : 0px;
+        padding : 0px 20px;
+        right : 0px;
+        border-left: 1px solid #ffffff;
+        height : 100%;
+        display : flex;
+        align-items: center;
+        font-size: 20px;
+      }
+      /*************************************/
+     .app-nav__content .app-nav__content-item:first-child {
+         width : 100%;
+         display : flex;
+         justify-content: center;
+       
+     }
+     .app-nav__content .app-nav__content-item:first-child img {
+         max-width : 135px !important;
+         
+     }
+     .app-nav__content .app-nav__content-item:first-child  {
+        padding-left : 30px;
+        
+    }
+     .app-nav__content .app-nav__content-item:last-child ul{
+        
+        gap : 30px !important;
+        
+    }
+    .app-nav__content .app-nav__content-item:last-child ul li:first-child{
+        display: none;
+      
+        
+    }
+
+     .app-first-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.646)), url('https://pathsoft.kovalweb.com/original/wp-content/uploads/2021/06/intro-img1.jpg');
+        height : 554px;
+    }
+    .app-first-section__content-top h1{
+        color : rgb(233, 233, 233) ;
+    }
+    .app-first-section__content-top span{
+        color : rgb(233, 233, 233) ;
+    }
+    .app-first-section__content-top p {
+        color :rgb(209, 207, 207);
+    }
+    .app-third-section__content{
+       width : 100%;
+       display: grid;
+       grid-template-columns: 90%;
+    
+        justify-content: center;
+      
+    }
+    .app-third-section__content-item {
+      
+        width : 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .app-nav__content-item-child {
+        padding : 0px 0px !important;
+        z-index: 998;
+        width : 100%;
+        top : 100% !important;
+        border-radius: 0 !important;
+     }
+    .section-bread-crumb {
+        margin-top : 92px;
+    }
+    .app-first-section {
+        padding-top: 200px;
+     }
+       /**************nav nav nav nav nav***********************/
+       .app-nav__content-item-child li {
+        padding : 20px 20px !important;
+        width : 100% !important;
+        position: relative;
+        border-bottom: 1px solid #cecdcd !important;
+     }
+       .app-nav__content-item-child {
+        z-index: 998;
+        width : 100%;
+        top : 100% !important;
+     }
+     .app-nav__content-item-title-li-active {
+        color : white !important;
+        background: #186adc !important;
+     }
+     .app-nav__content-item-title-active {
+        color : white;
+     }
+     .app-nav__content {
+        position: relative;
+     }
+     .app-nav__content-item-hot {
+        display: none;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2){
+        align-items: flex-start;
+        position: fixed;
+        top : 92px;
+        z-index: 999;
+        padding : 0px;
+        left : 0px;
+        background: #f0f4f8;
+        height : 100vh;
+        justify-content: flex-start;
+        width : 70% !important;
+        display: none;
+     }
+     .app-nav {
+        position: fixed;
+        z-index: 999;
+        background: white;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul{
+        display: flex;
+        flex-direction: column !important;
+        gap : 0px !important;
+        width : 100%;
+     }
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul li{
+       padding : 14px 0px 14px 20px;
+       width : 100% !important;
+       position: relative;
+       border-bottom: 1px solid #ffffff;
+     }
+
+     .app-nav__content .app-nav__content-item:nth-child(2)>ul li .fa-angle-down{
+        
+        position: absolute;
+        top : 0px;
+        padding : 0px 20px;
+        right : 0px;
+        border-left: 1px solid #ffffff;
+        height : 100%;
+        display : flex;
+        align-items: center;
+        font-size: 20px;
+      }
+      /*************************************/
+  
+    .absolute-icon {
+        position: relative;
+    }
+   .app-nav__content-item-icon-nav {
+    position: absolute;
+    left : 0px;
+    top : 0px;
+    height : 100%;
+    font-size: 25px !important;
+   color : rgb(47, 47, 47);
+    display: flex;
+    align-items: center;
+   }
+
+
+
+    .app-header {
+        display : none !important;
+    }
+    .app-footer-last__right {
+        justify-content: flex-start;
+    }
+    .app-sixth-section__content {
+        flex-wrap: wrap;
+       }
+       .app-sixth-section__content-item {
+        width : 47.3%;
+       }
+    .row>* {
+        max-width: 100%;
+        padding-right: calc(1.5rem * .5);
+        padding-left: calc(1.5rem * .5);
+        margin-top: 0;
+    }
+   
+    .app-fifth-section__content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 240px 240px 240px;
+    }
+    .app-second-section__content {
+        flex-wrap: wrap;
+    }
+    
+    .app-fourth-section-left {
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    }
+    .app-fourth-section-right {
+        gap : 30px;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .app-fourth-section-right-item {
+        text-align: center;
+    }
+    .app-third-section__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .app-footer-item__right {
+        margin : 12px 0px;
+    }
+    .app-footer__item {
+        margin : 12px 0px;
+    }
+    .app-last-section-item {
+        margin : 12px 0px;
+    }
+    .app-seventh-section-content {
+        margin : 12px 0px;
+    }
+    
+   
+     .app-nav__content .app-nav__content-item:first-child {
+         width : 100%;
+         display : flex;
+         justify-content: center;
+       
+     }
+     .app-nav__content .app-nav__content-item:first-child img {
+         width : 135px !important;
+         
+     }
+
+     .app-first-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.646)), url('https://pathsoft.kovalweb.com/original/wp-content/uploads/2021/06/intro-img1.jpg');
+        height : 554px;
+    }
+    .app-first-section__content-top h1{
+        color : rgb(233, 233, 233) ;
+    }
+    .app-first-section__content-top span{
+        color : rgb(233, 233, 233) ;
+    }
+    .app-first-section__content-top p {
+        color :rgb(209, 207, 207);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  
+   
+   
+   .app-sixth-section__content {
+    flex-wrap: wrap;
+   }
+   .app-sixth-section__content-item {
+    width : 47.8%;
+   }
+    .app-fourth-section-left {
+        justify-content: center;
+    }
+    .app-fourth-section-right {
+        gap : 30px;
+        justify-content:space-between;
+        flex-direction: row;
+    }
+    .app-fourth-section-right-item {
+        text-align: center;
+    }
+
+    .app-fifth-section__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ 
+ .app-first-section__content {
+    padding-top: 90px;
+ }
+ .app-second-section__content {
+    flex-wrap: wrap;
+ }
+ .app-second-section__content-item {
+    width : 47.8%;
+ }
+
+  .app-first-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.646)), url('https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-a-book-in-the-sun-summer-small-summer-book-outdoor-on-image_800361.jpg');
+    height : 554px;
+}
+.app-first-section__content-top h1{
+    color : rgb(233, 233, 233) ;
+}
+.app-first-section__content-top span{
+    color : rgb(233, 233, 233) ;
+}
+.app-first-section__content-top p {
+    color :rgb(209, 207, 207);
+}
+.app-third-section__content {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .app-sixth-section__content {
+        flex-wrap: nowrap;
+       }
+       .app-sixth-section__content-item {
+        width : 100%;
+       }
+    .app-fourth-section-left {
+        justify-content:flex-end;
+    }
+    .app-fourth-section-right {
+        gap : 00px;
+        
+
+        flex-direction:column;
+    }
+    .app-fourth-section-right-item {
+        text-align:start;
+    }
+
+    .app-fifth-section__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .app-header {
+        display : none;
+    }
+    .app-fourth-section {
+        margin : 70px 0px;
+    }
+    
+     .app-first-section {
+        padding-top: 80px;
+     }
+  
+    
+    .app-third-section__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .app-fifth-section__content {
+        display : grid;
+        gap : 30px;
+        grid-template-rows: 310px 310px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .app-second-section__content {
+        flex-wrap: nowrap;
+     }
+     .app-second-section__content-item {
+        width : 100%;
+     }
+    .app-first-section__content {
+        padding-top: 0px;
+     }
+    .app-fourth-section-right {
+        
+        padding : 0px 0px 0px 170px;
+       
+    }
+    .app-first-section__content {
+        padding : 0px 70px;
+       }
+
+   .app-fifth-section__content {
+   
+    grid-template-rows: 285px 285px;
+    
+}
+     .app-second-section__content {
+        padding : 0px 15px;
+      }
+   .app-third-section__content {
+    padding : 0px 15px;
+   } 
+   .app-fourth-section  {
+    padding : 0px 65px;
+   }
+}
+ 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.app-header {
+  display: block !important;
+}
+ /**************nav nav nav nav nav***********************/
+ .app-nav__content-item-child {
+    display: none;
+    animation: identifier 0.5s ease-out;
+    width: auto;
+    white-space: nowrap;
+    position: absolute;
+    padding : 10px 80px 10px 20px;
+    background: rgb(253, 253, 253);
+    top : 40px;
+    left : 20px;
+    box-shadow: 0 0 5px rgb(91, 91, 91);
+ }
+ .app-nav__content-item-title-li-active {
+    color : rgb(24, 59, 230) !important;
+    background: #ffffff !important;
+ }
+ .app-nav__content-item-title-active {
+    color :#186adc;
+ }
+ .app-nav__content {
+    position: relative;
+ }
+ .app-nav__content-item-hot {
+    display: flex;
+ }
+ .app-nav__content .app-nav__content-item:nth-child(2){
+    align-items: center;
+    position: relative;
+    top : 0px;
+    right : 0px;
+    z-index: 999;
+    padding : 0px;
+    padding-right : 20px;
+   background: white;
+    height : auto;
+    align-items: center;
+    justify-content: flex-end;
+    width : 100% !important;
+    display: block !important;
+ }
+ .app-nav {
+    position: relative;
+    z-index: 999;
+    background: white;
+ }
+ .app-nav__content .app-nav__content-item:nth-child(2)>ul{
+    display: flex;
+    flex-direction: row !important;
+    gap : 5px !important;
+    justify-content: flex-end;
+    align-items: center !important;
+    width : 100%;
+ }
+ .app-nav__content .app-nav__content-item:nth-child(2) ul li{
+   padding : 12px 20px!important;
+   width : auto !important;
+   position: relative;
+   display: flex;
+
+   flex-direction: row !important;
+
+   border-bottom: none;
+   
+   
+
+
+   
+   display : flex;
+   align-items: center;
+  
+   position: relative;
+ }
+
+ .app-nav__content .app-nav__content-item:nth-child(2)>ul li i{
+    padding : 0px 0px !important;
+    border-left: none !important;
+    color :#186adc;
+    font-weight: 600;
+    display : flex;
+    align-items: center;
+    font-size: 15px !important;
+  }
+  /*************************************/
+
+
+
+ 
+    
+ 
+  
+    
+ 
+    .app-nav__content-item-icon-nav  {
+        display : none;
+    }
+    .app-fifth-section__content {
+   
+        grid-template-rows: 310px 310px;
+        
+    }
+    .app-nav__content .app-nav__content-item:nth-child(2){
+        display : flex;
+        
+        
+     }
+     .app-fourth-section-right {
+        
+        padding : 0px 0px 0px 240px;
+       
+    }
+     .app-nav__content .app-nav__content-item:nth-child(2) ul{
+     
+        gap : 10px;
+        
+     }
+     .app-nav__content .app-nav__content-item:first-child {
+        flex : 0 0 140px;
+        
+    }
+    .app-first-section {
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-a-book-in-the-sun-summer-small-summer-book-outdoor-on-image_800361.jpg);
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+   
+    .app-first-section__content-top span {
+      
+        color: #186adc;
+       
+        
+    }
+    .app-first-section__content-top h1 {
+       color :white;
+    }
+    .app-first-section__content-top p {
+        color : white;
+        
+    }
+    .app-first-section__content {
+        padding : 0px 70px;
+      }
+      /* .app-second-section__content {
+        padding : 0px 25px;
+      }
+   .app-third-section__content {
+    padding : 0px 25px;
+   } */
+   .app-fourth-section-left::after {
+    display: block;
+}
+.app-fourth-section-left-elipt::after {
+    display: block;
+}
+.app-footer-last__right {
+    justify-content: flex-end;
+}
+.section-bread-crumb {
+    margin-top : 0px;
+}
+.app-nav__content-item-child li {
+    
+    width : 100% !important;
+    position: relative;
+    border-bottom: none !important;
+ }
+ .app-nav__content-item-child {
+    padding : 20px 70px 20px 0px!important;
+    border-radius: 3px !important;
+ }
+}

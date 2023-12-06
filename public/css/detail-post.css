@@ -1,0 +1,118 @@
+
+
+.app-detail__post-title {
+    display : flex;
+    flex-direction: column;
+    gap : 18px;
+}
+.app-detail__post-title h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.app-detail__post-img-present img {
+    width : 100%;
+    height : 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.app-detail__post-content h1 {
+    font-size: 35px;;
+}
+.app-detail__post-content p {
+    margin : 20px 0px;
+}
+.app-detail__post-content img {
+    margin : 10px 0px;
+    width : 100%;
+    height : 100%;
+}
+.app-detail__post-content ol {
+  
+    margin-left : 16px;
+}
+.app-detail__post-tab-text a{
+    color : #186adc;
+}
+.app-detail__post-tab {
+    padding : 15px 0px;
+    border-top : 1px solid #d4d4e1 ;
+    display: flex;
+    flex-direction: column;
+    gap : 25px;
+}
+.app-detail__post-comment-list {
+    display : flex;
+    flex-direction: column;
+    gap : 35px;
+    margin : 30px 0px;
+}
+.app-detail__post-comment-list-item {
+    display : flex;
+    flex-direction: column;
+    gap : 25px;
+    padding : 20px;
+    border : 1px solid #d4d4e1 ;
+    border-radius: 8px;
+}
+.app-detail__post-comment-list-item-author {
+    display : flex;
+    justify-content: space-between;
+}
+.app-detail__post-comment-list-item-author-image {
+    display : flex;
+    align-items: center;
+    gap : 10px;
+}
+.app-detail__post-comment-list-item-author-date {
+    display : flex;
+    gap : 60px;
+}
+.app-detail__post-comment-list-item-author-date  span {
+    font-size: 15px;
+    color: #186adc;
+    text-decoration:underline;
+}
+.app-detail__post-comment-list-item-author-image img {
+    width : 34px;
+    height : 34px;
+    border-radius: 100%;
+    display : block;
+    object-fit : cover;
+}
+.app-detail__post-comment-list-item-author-image a {
+    color :#186adc;
+    text-decoration:underline;
+    font-weight: 900;
+}
+.app-detail__post-comment-list-item-author-image {
+    font-size: 15px;
+}
+.app-detail__post-comment-list-item-detail p{
+    line-height: 25px;
+    font-size: 15px;
+    color : #63636b;
+
+}
+.app-detail__post-comment-list-child .app-detail__post-comment-list-item {
+    border: none !important;
+    padding-right : 0px !important;
+    margin-left : 25px !important;
+    padding-left : 0px;
+    border-bottom: 1px solid #d4d4e1 !important;
+    border-radius: 0 !important;
+   
+}
+.app-detail__post-comment-list-child .app-detail__post-comment-list-item:last-child {
+    border-bottom: 1px solid rgba(255, 0, 0, 0) !important;
+}
+.border-has-child-comment {
+    border-bottom: 1px solid #d4d4e1 !important;
+    padding-bottom: 20px;
+}
+.app-detail__post-comment-title h1 {
+    font-size: 26px;
+}
+.app-detail__post-comment {
+    margin : 40px 0px;
+}
